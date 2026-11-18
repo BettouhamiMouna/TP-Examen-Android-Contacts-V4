@@ -10,9 +10,6 @@ Persistance SQLite • Préférences utilisateur • Fragments • Google Maps
 ![SQLite](https://img.shields.io/badge/SQLite-SQLiteOpenHelper-003B57?logo=sqlite&logoColor=white)
 ![Google Maps](https://img.shields.io/badge/Google%20Maps-SDK-4285F4?logo=googlemaps&logoColor=white)
 
-<img src="captures/01_liste_premier_lancement.jpg" width="200"/> &nbsp;
-<img src="captures/13_liste_grande_rouge.jpg" width="200"/> &nbsp;
-<img src="captures/17_carte_marqueur.jpg" width="200"/>
 
 *TP Android — Développement mobile • Mouna Bettouhami • L3 DSI*
 
@@ -30,8 +27,7 @@ Persistance SQLite • Préférences utilisateur • Fragments • Google Maps
 6. [Préférences utilisateur](#-préférences-utilisateur)
 7. [Bonus réalisés](#-bonus-réalisés)
 8. [Tests](#-tests)
-9. [Captures d’écran](#-captures-décran)
-10. [Compte rendu](#-compte-rendu)
+9. [Compte rendu](#-compte-rendu)
 
 ---
 
@@ -213,28 +209,7 @@ de 100, et l’import est atomique (tout ou rien).
 
 ---
 
-## 📸 Captures d’écran
 
-<table>
-<tr>
-<td align="center"><img src="captures/01_liste_premier_lancement.jpg" width="180"/><br/><sub>Liste</sub></td>
-<td align="center"><img src="captures/03_creation_formulaire_rempli.jpg" width="180"/><br/><sub>Création</sub></td>
-<td align="center"><img src="captures/05_validation_erreurs.jpg" width="180"/><br/><sub>Validation</sub></td>
-<td align="center"><img src="captures/07_confirmation_suppression.jpg" width="180"/><br/><sub>Suppression</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="captures/09_filtrage_saisie.jpg" width="180"/><br/><sub>Recherche</sub></td>
-<td align="center"><img src="captures/11_parametres.jpg" width="180"/><br/><sub>Paramètres</sub></td>
-<td align="center"><img src="captures/12_liste_petite_bleu.jpg" width="180"/><br/><sub>Petite + Bleu</sub></td>
-<td align="center"><img src="captures/13_liste_grande_rouge.jpg" width="180"/><br/><sub>Grande + Rouge</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="captures/15_liste_boutons_appeler.jpg" width="180"/><br/><sub>Boutons Appeler</sub></td>
-<td align="center"><img src="captures/16_composeur_depuis_liste.jpg" width="180"/><br/><sub>Composeur</sub></td>
-<td align="center"><img src="captures/17_carte_marqueur.jpg" width="180"/><br/><sub>Carte</sub></td>
-<td align="center"><img src="captures/22_bonus_import_100_contacts.jpg" width="180"/><br/><sub>Import (bonus)</sub></td>
-</tr>
-</table>
 
 **Database Inspector**
 
