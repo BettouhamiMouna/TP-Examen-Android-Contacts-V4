@@ -1,0 +1,3 @@
+# Copier ce fichier en "local.properties" (déjà ignoré par Git) et y mettre votre clé.
+# sdk.dir est normalement ajouté automatiquement par Android Studio.
+MAPS_API_KEY=VOTRE_CLE_GOOGLE_MAPS_ICI

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaire">#00695C</color>
+    <color name="primaire_fonce">#004D40</color>
+    <color name="accent">#FF6F00</color>
+    <color name="danger">#C62828</color>
+    <color name="gris_texte">#555555</color>
+    <color name="fond_photo">#E0E0E0</color>
+    <color name="blanc">#FFFFFF</color>
+</resources>

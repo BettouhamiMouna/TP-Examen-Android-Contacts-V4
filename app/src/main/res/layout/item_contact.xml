@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/image_photo"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@color/fond_photo"
+        android:contentDescription="@string/photo_contact"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_nom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/btn_appeler"
+        app:layout_constraintStart_toEndOf="@id/image_photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_prenom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/text_nom"
+        app:layout_constraintStart_toStartOf="@id/text_nom"
+        app:layout_constraintTop_toBottomOf="@id/text_nom" />
+
+    <TextView
+        android:id="@+id/text_telephone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gris_texte"
+        app:layout_constraintEnd_toEndOf="@id/text_nom"
+        app:layout_constraintStart_toStartOf="@id/text_nom"
+        app:layout_constraintTop_toBottomOf="@id/text_prenom" />
+
+    <!-- Masqué (GONE) tant que la préférence "appel_depuis_liste" est désactivée -->
+    <ImageButton
+        android:id="@+id/btn_appeler"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/appeler"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_call"
+        app:tint="@color/primaire" />
+</androidx.constraintlayout.widget.ConstraintLayout>

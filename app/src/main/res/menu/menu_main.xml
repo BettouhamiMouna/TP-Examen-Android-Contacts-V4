@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_parametres"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/parametres"
+        app:showAsAction="ifRoom" />
+
+    <!-- Bonus : import de test (dans le menu de débordement) -->
+    <item
+        android:id="@+id/action_importer"
+        android:title="@string/menu_importer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_supprimer_importes"
+        android:title="@string/menu_supprimer_importes"
+        app:showAsAction="never" />
+</menu>

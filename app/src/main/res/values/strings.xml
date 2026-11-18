@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts V4</string>
+
+    <!-- Titres -->
+    <string name="titre_liste">Contacts</string>
+    <string name="titre_creation">Nouveau contact</string>
+    <string name="titre_modification">Fiche du contact</string>
+    <string name="titre_carte">Position du contact</string>
+    <string name="parametres">Paramètres</string>
+
+    <!-- Liste -->
+    <string name="hint_filtre">Rechercher (nom, prénom, téléphone)</string>
+    <string name="liste_vide">Aucun contact. Appuyez sur « + » pour en ajouter un.</string>
+    <string name="aucun_resultat">Aucun contact ne correspond à la recherche.</string>
+    <string name="ajouter_contact">Ajouter un contact</string>
+    <string name="photo_contact">Photo du contact</string>
+    <string name="appeler_contact">Appeler %1$s %2$s</string>
+
+    <!-- Détail -->
+    <string name="hint_nom">Nom *</string>
+    <string name="hint_prenom">Prénom *</string>
+    <string name="hint_telephone">Téléphone *</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="appeler">Appeler</string>
+    <string name="envoyer_email">E-mail</string>
+    <string name="voir_carte">Carte</string>
+    <string name="galerie">Galerie</string>
+    <string name="camera">Caméra</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="annuler">Annuler</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="supprimer_titre">Supprimer le contact ?</string>
+    <string name="supprimer_message">%1$s %2$s sera définitivement supprimé.</string>
+
+    <!-- Confirmations -->
+    <string name="contact_ajoute">Contact ajouté</string>
+    <string name="contact_modifie">Contact modifié</string>
+    <string name="contact_supprime">Contact supprimé</string>
+    <string name="action_annulee">Action annulée</string>
+
+    <!-- Erreurs de validation -->
+    <string name="err_formulaire">Corrigez les champs signalés avant d’enregistrer.</string>
+    <string name="err_nom_vide">Le nom est obligatoire</string>
+    <string name="err_prenom_vide">Le prénom est obligatoire</string>
+    <string name="err_tel_vide">Le téléphone est obligatoire</string>
+    <string name="err_tel_format">Numéro invalide (chiffres, espaces, + au début)</string>
+    <string name="err_email_format">Adresse e-mail invalide</string>
+    <string name="err_gps_incomplet">Saisissez la latitude ET la longitude, ou aucune des deux</string>
+    <string name="err_gps_nombre">Valeur numérique attendue (ex. 36.8065)</string>
+    <string name="err_latitude_limites">La latitude doit être comprise entre -90 et 90</string>
+    <string name="err_longitude_limites">La longitude doit être comprise entre -180 et 180</string>
+
+    <!-- Erreurs base / actions -->
+    <string name="err_insertion">L’insertion du contact a échoué.</string>
+    <string name="err_modification">La modification n’a pas pu être enregistrée.</string>
+    <string name="err_contact_introuvable">Contact introuvable (il a peut-être été supprimé).</string>
+    <string name="err_lecture">Impossible de lire la liste des contacts.</string>
+    <string name="err_base">Erreur de base de données : %1$s</string>
+    <string name="err_photo">Impossible d’enregistrer cette image.</string>
+    <string name="err_numero_vide">Aucun numéro de téléphone à appeler.</string>
+    <string name="err_email_vide">Aucune adresse e-mail renseignée.</string>
+    <string name="err_pas_app_telephone">Aucune application téléphone disponible.</string>
+    <string name="err_pas_app_email">Aucune application de messagerie disponible.</string>
+    <string name="err_pas_app_galerie">Aucune application galerie disponible.</string>
+    <string name="err_pas_app_camera">Aucune application caméra disponible.</string>
+    <string name="err_enregistrer_avant_carte">Enregistrez d’abord le contact pour le voir sur la carte.</string>
+
+    <!-- Carte -->
+    <string name="carte_pas_de_position">Aucune position GPS n’est enregistrée pour ce contact.</string>
+    <string name="carte_position_invalide">La position enregistrée pour ce contact est invalide.</string>
+
+    <!-- Préférences -->
+    <string name="pref_categorie_affichage">Affichage</string>
+    <string name="pref_categorie_liste">Liste des contacts</string>
+    <string name="pref_taille_titre">Taille de police</string>
+    <string name="pref_couleur_titre">Couleur préférée (du texte)</string>
+    <string name="pref_appel_titre">Activer l’appel depuis la liste</string>
+    <string name="pref_appel_resume_on">Oui : un bouton Appeler est affiché sur chaque ligne</string>
+    <string name="pref_appel_resume_off">Non</string>
+    <string name="pref_categorie_tri">Tri</string>
+    <string name="pref_tri_titre">Ordre de tri</string>
+
+    <!-- Bonus : favoris et import de test -->
+    <string name="favori">Favori</string>
+    <string name="menu_importer">Importer 100 contacts (test)</string>
+    <string name="menu_supprimer_importes">Supprimer les contacts importés</string>
+    <string name="import_titre">Import de contacts</string>
+    <string name="import_resultat">%1$d contacts importés.\n\nDurée pour 100 insertions :\n• sans transaction : %2$d ms\n• avec une transaction unique : %3$d ms</string>
+    <string name="import_supprimes">%1$d contact(s) de test supprimé(s).</string>
+</resources>
